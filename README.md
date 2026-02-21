@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# VC Intelligence Platform
 
-## Getting Started
+An AI-powered venture capital discovery platform with live enrichment capabilities. Built for the Vibe Coding Take-Home assignment.
 
-First, run the development server:
+## 🚀 Live Demo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black)](https://vc-intelligence.vercel.app)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Live URL:** https://vc-intelligence.vercel.app
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 📋 Features Implemented
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Core Requirements ✓
+- ✅ **Sidebar Navigation** - Collapsible with professional icons
+- ✅ **Global Search** - Search companies with keyboard shortcut (⌘K)
+- ✅ **/companies** - Filterable, sortable table with pagination
+- ✅ **/companies/[id]** - Detailed profile with AI enrichment
+- ✅ **/lists** - Create, edit, export lists (CSV/JSON)
+- ✅ **/saved** - Save and re-run searches
+- ✅ **Live Enrichment** - Real website scraping with AI analysis
 
-## Learn More
+### Premium Features
+- ✅ **Responsive Design** - Perfect on mobile, tablet, desktop
+- ✅ **Keyboard Shortcuts** - ⌘K for search, ESC to close
+- ✅ **Bulk Actions** - Select multiple companies
+- ✅ **Export Options** - JSON and CSV formats
+- ✅ **Local Storage** - Persists saved items and preferences
+- ✅ **Loading States** - Skeleton loaders and spinners
+- ✅ **Error Handling** - Graceful fallbacks and retry options
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠️ Tech Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Framework**: Next.js 14 (App Router)
+- **Styling**: Tailwind CSS
+- **Icons**: Lucide React
+- **AI**: OpenRouter (Llama 3)
+- **Scraping**: Cheerio
+- **Deployment**: Vercel
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📦 Installation
 
-## Deploy on Vercel
+### Prerequisites
+- Node.js 18+
+- npm or yarn
+- OpenRouter API key (get at [openrouter.ai](https://openrouter.ai))
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Setup Instructions
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **Clone the repository**
+   ```bash
+   [git clone https://github.com/Rajudotin/vc-intelligence.git]
+   cd vc-intelligence
